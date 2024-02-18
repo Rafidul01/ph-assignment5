@@ -256,9 +256,9 @@
         </div>
         <!-- seat section  -->
         <!-- flex items-center justify-around flex-col lg:flex-row -->
-        <div class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl">
+        <div class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl flex justify-between flex-col lg:flex-row">
           <!-- seat booking  -->
-          <div class="max-w-[673px]  border-r border-dashed border-[#0307124D] p-[32px]">
+          <div class="w-[673px]  border-r border-dashed border-[#0307124D] p-[32px]">
             <h1 class="text-[#030712] font-semibold text-2xl">
               Select Your Seat
             </h1>
@@ -280,7 +280,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex justify-between mb-6">
+            <div class="flex justify-between mb-6 ">
               <div></div>
               <button class="btn w-[110px]">
                 <img src="./images/wheel.svg" alt="" />
@@ -358,6 +358,38 @@
               </div>
 
             </div>
+          </div>
+          <!-- bill section  -->
+          <div class="p-[32px]">
+            <h1 class="text-[#030712] font-semibold text-2xl border-b border-dashed border-[#03071233] pb-[24px] mb-[16px]">
+                Select Your Seat
+              </h1>
+              <div class="w-[433px] bg-[#F7F8F8]  rounded-xl p-4">
+                <div class="flex justify-between border-b border-dashed border-[#03071233] pb-[24px]">
+                    <p class="text-[#030712] font-medium text-base inter">Seat<span class="bg-[#1DD100] rounded-[16px] w-[23px] px-2 inter">0</span></p>
+                    <p class="text-[#030712] font-medium text-base inter">Class</p>
+                    <p class="text-[#030712] font-medium text-base inter">Price</p>
+                </div>
+                <!-- seat that ware booked  -->
+                <div id="price-div">
+
+                </div>
+                <!-- seat that ware booked  end -->
+                <div class="flex justify-between border-t  border-[#03071233] py-[16px]">
+                    <p class="text-[#030712] font-medium text-base inter">Total Price</p>
+                    <p class="text-[#030712] font-medium text-base inter">BDT <span>0</span></p>
+                </div>
+                <div class="flex  ">
+                    <input class="input input-bordered rounded-r-none w-full" placeholder="Have any copupon?"/>
+                    <button class="btn join-item rounded-r-full bg-[#1DD100] text-white font-extrabold text-[20px]">Apply</button>
+                  </div>
+                  <div class="flex justify-between py-[16px]">
+                    <p class="text-[#030712] font-medium text-base inter">Grand Total</p>
+                    <p class="text-[#030712] font-medium text-base inter">BDT <span>0</span></p>
+                </div>
+
+              </div>
+              <button class="btn w-full bg-[#1DD100] text-white font-extrabold text-[20px] mt-4">Next</button>
           </div>
         </div>
         
