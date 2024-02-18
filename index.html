@@ -172,7 +172,7 @@
         id="ticket-section"
         class="border-t border-[#1DD100] rounded-t-[88px] bg-[#F7F8F8]"
       >
-        <div class="flex flex-col items-center text-center mt-[120px] mb-12">
+        <div class="flex flex-col items-center text-center mt-[120px]">
           <h1 class="text-[#030712] font-bold text-[40px] inter">
             P.H Paribahan
           </h1>
@@ -183,10 +183,10 @@
         </div>
         <!-- ticket price section -->
         <div
-          class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl flex items-center justify-around flex-col lg:flex-row mb-7"
+          class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl flex items-center justify-around flex-col lg:flex-row mb-7 "
         >
           <!-- ticket Destination and time  -->
-          <div class="w-[400px] lg:w-[808px]">
+          <div class="w-[400px] lg:w-[808px] ">
             <div class="flex justify-between">
               <div class="flex gap-[14px] items-center">
                 <div class="w-[68.571px]">
@@ -248,31 +248,119 @@
             </div>
           </div>
           <img class="hidden lg:block" src="./images/info-devider.png" alt="" />
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col items-center ">
             <img src="./images/fare.png" alt="" />
             <h1 class="text-[#030712] font-bold text-[32px]">550 Taka</h1>
             <p class="text-[#03071299] font-semibold text-2xl">Per Seat</p>
           </div>
         </div>
+        <!-- seat section  -->
         <!-- flex items-center justify-around flex-col lg:flex-row -->
-        <div class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl mb-7">
-          <!-- ticket Destination and time  -->
-          <div class="max-w-[673px]">
-            <h1>Select Your Seat</h1>
-            <div class="flex justify-between">
-              <div>
-                <p class="flex items-center">
+        <div class="w-[400px] lg:w-[1170px] mx-auto bg-white rounded-3xl">
+          <!-- seat booking  -->
+          <div class="max-w-[673px]  border-r border-dashed border-[#0307124D] p-[32px]">
+            <h1 class="text-[#030712] font-semibold text-2xl">
+              Select Your Seat
+            </h1>
+            <div
+              class="flex justify-between py-4 my-6 border-y border-dashed border-[#03071233]"
+            >
+              <div class="">
+                <p
+                  class="flex items-center text-lg font-medium inter text-[#03071280] gap-2"
+                >
                   <img src="./images/seat-gray.png" alt="" /> Available
                 </p>
               </div>
               <div>
-                <p class="flex items-center">
+                <p
+                  class="flex items-center text-lg font-medium inter text-[#1DD100] gap-2"
+                >
                   <img src="./images/seat-green-filled.png" alt="" /> Selected
                 </p>
               </div>
             </div>
+            <div class="flex justify-between mb-6">
+              <div></div>
+              <button class="btn w-[110px]">
+                <img src="./images/wheel.svg" alt="" />
+              </button>
+            </div>
+            <!-- seat container  -->
+            <div class="flex justify-between " >
+              <div class="flex gap-[32px]">
+                <div class="flex flex-col gap-6">
+                    <h1 class="btn inter bg-white border-none shadow-none">A</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">B</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">C</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">D</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">E</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">F</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">G</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">H</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">I</h1
+                    ><h1 class="btn inter bg-white border-none shadow-none">J</h1>
+                  </div>
+                <!-- seat col-1  -->
+                <div class="flex flex-col gap-6">
+                  <button class="btn inter w-[110px]">A1</button
+                  ><button class="btn inter w-[110px]">B1</button
+                  ><button class="btn inter w-[110px]">C1</button
+                  ><button class="btn inter w-[110px]">D1</button
+                  ><button class="btn inter w-[110px]">E1</button
+                  ><button class="btn inter w-[110px]">F1</button
+                  ><button class="btn inter w-[110px]">G1</button
+                  ><button class="btn inter w-[110px]">H1</button
+                  ><button class="btn inter w-[110px]">I1</button
+                  ><button class="btn inter w-[110px]">J1</button>
+                </div>
+                <!-- seat col-2  -->
+                <div class="flex flex-col gap-6">
+                    <button class="btn inter w-[110px]">A2</button
+                    ><button class="btn inter w-[110px]">B2</button
+                    ><button class="btn inter w-[110px]">C2</button
+                    ><button class="btn inter w-[110px]">D2</button
+                    ><button class="btn inter w-[110px]">E2</button
+                    ><button class="btn inter w-[110px]">F2</button
+                    ><button class="btn inter w-[110px]">G2</button
+                    ><button class="btn inter w-[110px]">H2</button
+                    ><button class="btn inter w-[110px]">I2</button
+                    ><button class="btn inter w-[110px]">J2</button>
+                </div>
+              </div>
+              <div class="flex gap-[32px]">
+                <!-- seat col-1  -->
+                <div class="flex flex-col gap-6">
+                  <button class="btn inter w-[110px]">A3</button
+                  ><button class="btn inter w-[110px]">B3</button
+                  ><button class="btn inter w-[110px]">C3</button
+                  ><button class="btn inter w-[110px]">D3</button
+                  ><button class="btn inter w-[110px]">E3</button
+                  ><button class="btn inter w-[110px]">F3</button
+                  ><button class="btn inter w-[110px]">G3</button
+                  ><button class="btn inter w-[110px]">H3</button
+                  ><button class="btn inter w-[110px]">I3</button
+                  ><button class="btn inter w-[110px]">J3</button>
+                </div>
+                <!-- seat col-2  -->
+                <div class="flex flex-col gap-6">
+                    <button class="btn inter w-[110px]">A4</button
+                    ><button class="btn inter w-[110px]">B4</button
+                    ><button class="btn inter w-[110px]">C4</button
+                    ><button class="btn inter w-[110px]">D4</button
+                    ><button class="btn inter w-[110px]">E4</button
+                    ><button class="btn inter w-[110px]">F4</button
+                    ><button class="btn inter w-[110px]">G4</button
+                    ><button class="btn inter w-[110px]">H4</button
+                    ><button class="btn inter w-[110px]">I4</button
+                    ><button class="btn inter w-[110px]">J4</button>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
+        
       </section>
     </main>
     <footer></footer>
