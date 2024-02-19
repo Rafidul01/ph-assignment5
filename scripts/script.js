@@ -14,13 +14,15 @@ function confirmTic(){
     hideById("ticket-section");
     hideById("copupon-section");
     hideById("head-section");
+    hideById("footerid");
 
 }
 function returnHome(){
     hideById("confirm-section");
     showById("ticket-section");
     showById("copupon-section");
-    showById("head-section"); 
+    showById("head-section");
+    showById("footerid"); 
 }
 function colorSeatById(id){
     document.getElementById(id).classList.add('bg-[#1DD100]');
