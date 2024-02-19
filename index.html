@@ -362,7 +362,7 @@
               </h1>
               <div class="w-[433px] bg-[#F7F8F8]  rounded-xl p-4">
                 <div class="flex justify-between border-b border-dashed border-[#03071233] pb-[24px]">
-                    <p class="text-[#030712] font-medium text-base inter">Seat<span id="total-selected-seats" class="bg-[#1DD100] rounded-[16px] w-[23px] px-2 inter">0</span></p>
+                    <p class="text-[#030712] font-medium text-base inter">Seat <span id="total-selected-seats" class="bg-[#1DD100] rounded-[16px] w-[23px] px-2 inter">0</span></p>
                     <p class="text-[#030712] font-medium text-base inter">Class</p>
                     <p class="text-[#030712] font-medium text-base inter">Price</p>
                 </div>
@@ -375,11 +375,11 @@
                     <p class="text-[#030712] font-medium text-base inter">Total Price</p>
                     <p class="text-[#030712] font-medium text-base inter">BDT <span id="total-price" class="inter">0</span></p>
                 </div>
-                <div id="coupon-input" class="flex">
-                    <input id="coupon-code" class="input input-bordered rounded-r-none w-full" placeholder="Have any copupon?"/>
-                    <button onclick="testCode()" class="btn join-item rounded-r-full bg-[#1DD100] text-white font-extrabold text-[20px]">Apply</button>
+                <div id="coupon-input" class="flex relative">
+                    <input id="coupon-code" class="input input-bordered  w-full absolute h-[56px]" placeholder="Have any copupon?"/>
+                    <button onclick="testCode()" class="btn bg-[#1DD100] text-white font-extrabold text-[20px] absolute right-2 h-[40px] top-1">Apply</button>
                   </div>
-                  <div class="flex justify-between py-[16px]">
+                  <div class="flex justify-between py-[16px] mt-[50px]">
                     <p class="text-[#030712] font-medium text-base inter">Grand Total</p>
                     <p class="text-[#030712] font-medium text-base inter">BDT <span id="grand-total" class="inter">0</span></p>
                 </div>
