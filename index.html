@@ -93,9 +93,7 @@
                   <span class="text-[#1DD100]">P Paribahan</span>
                 </h1>
                 <p class="mb-5">
-                  Yes, you can run unit tests and view the results directly
-                  within the app. The integrated testing features allow for a
-                  streamlined .
+                  Experience seamless travel with P Paribahan, from booking to journey's end, ensuring comfort and convenience throughout.
                 </p>
                 <button
                   class="btn bg-[#1DD100] border-none text-[#030712] font-bold text-xl"
@@ -134,7 +132,7 @@
             </div>
             <img src="./images/cupon-devider.png" alt="" />
             <div>
-              <h2 class="text-[#030712] font-bold text-[32px]">NEW15</h2>
+              <h2 class="text-[#030712] font-bold text-[32px]"><span class="coupons">NEW15</span></h2>
               <p class="text-[#03071266] font-medium text-xl">Coupon Code</p>
             </div>
           </div>
@@ -153,7 +151,7 @@
             </div>
             <img src="./images/cupon-devider.png" alt="" />
             <div>
-              <h2 class="text-[#030712] font-bold text-[32px]">Couple 20</h2>
+              <h2 class="text-[#030712] font-bold text-[32px]"><span class="coupons">Couple 20</span></h2>
               <p class="text-[#03071266] font-medium text-xl">Coupon Code</p>
             </div>
           </div>
@@ -169,15 +167,14 @@
       <!-- Bus ticket section  -->
       <section
         id="ticket-section"
-        class="border-t border-[#1DD100] rounded-t-[88px] bg-[#F7F8F8]"
+        class="border-t border-[#1DD100] rounded-t-[88px] bg-[#F7F8F8] pb-14"
       >
-        <div class="flex flex-col items-center text-center mt-[120px]">
+        <div class="flex flex-col items-center text-center mt-[120px] mb-12">
           <h1 class="text-[#030712] font-bold text-[40px] inter">
             P.H Paribahan
           </h1>
           <p class="max-w-[736px] text-[#03071299] font-normal text-lg inter">
-            Yes, you can run unit tests and view the results directly within the
-            app. The integrated testing features allow for a streamlined .
+            Book your ticket, in this booking section. Enter departure, destination, date, and passenger details. Select your preferred option and complete the booking process.
           </p>
         </div>
         <!-- ticket price section -->
@@ -376,15 +373,15 @@
                 <!-- seat that ware booked  end -->
                 <div id="" class="flex justify-between border-t  border-[#03071233] py-[16px]">
                     <p class="text-[#030712] font-medium text-base inter">Total Price</p>
-                    <p class="text-[#030712] font-medium text-base inter">BDT <span id="total-price">0</span></p>
+                    <p class="text-[#030712] font-medium text-base inter">BDT <span id="total-price" class="inter">0</span></p>
                 </div>
-                <div class="flex  ">
-                    <input class="input input-bordered rounded-r-none w-full" placeholder="Have any copupon?"/>
-                    <button class="btn join-item rounded-r-full bg-[#1DD100] text-white font-extrabold text-[20px]">Apply</button>
+                <div id="coupon-input" class="flex">
+                    <input id="coupon-code" class="input input-bordered rounded-r-none w-full" placeholder="Have any copupon?"/>
+                    <button onclick="testCode()" class="btn join-item rounded-r-full bg-[#1DD100] text-white font-extrabold text-[20px]">Apply</button>
                   </div>
                   <div class="flex justify-between py-[16px]">
                     <p class="text-[#030712] font-medium text-base inter">Grand Total</p>
-                    <p class="text-[#030712] font-medium text-base inter">BDT <span id="grand-total">0</span></p>
+                    <p class="text-[#030712] font-medium text-base inter">BDT <span id="grand-total" class="inter">0</span></p>
                 </div>
 
               </div>

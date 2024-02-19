@@ -60,7 +60,6 @@ function seatSelect(seatName){
     const totalSelectedSeat = parseInt(selectSeat.innerText);
     const totalSeatLeft = parseInt(seatLeft.innerText);
     const price = parseInt(totalPrice.innerText);
-    const grandPrice = parseInt(grandTotalPrice);
     if(totalSelectedSeat < 4 && !selectedSeatArr.includes(seatName) ){
         selectedSeatArr.push(seatName);
         selectSeat.innerText = totalSelectedSeat+1;
@@ -80,4 +79,29 @@ function seatSelect(seatName){
         colorRemoveById(seatName);
     }
     
+}
+const couponArray = document.getElementsByClassName("coupons");
+
+function testCode(){
+    const inputFild = document.getElementById("coupon-code");
+    const givenCode = inputFild.value;
+    const totalSelectedSeat = parseInt(selectSeat.innerText);
+    const grandPrice = parseInt(grandTotalPrice.innerText);
+    console.log(givenCode);
+    let f=0;
+    let p = 0;
+    if(givenCode == "NEW15" && totalSelectedSeat === 4){
+        const discount = grandPrice * (15/100);
+        // console.log(discount);
+        grandTotalPrice.innerText = grandPrice - discount;
+        hideById("coupon-input");
+    }
+    else if(givenCode == "Couple 20" && totalSelectedSeat === 4){
+        const discount = grandPrice * (20/100);
+        // console.log(discount);
+        grandTotalPrice.innerText = grandPrice - discount;
+        hideById("coupon-input");
+    }
+    inputFild.value='';
+
 }
